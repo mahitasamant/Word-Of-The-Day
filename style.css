@@ -1,0 +1,118 @@
+body{
+    background-image:url("https://image.freepik.com/free-vector/abstract-background_53876-90669.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+   
+    
+    font-size: 30px;
+  }
+  .titl h2{
+    font-size: 65px;
+    text-align: center;  
+    color: #666666;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .quote-container{
+    
+    border-radius:12px;
+    justify-content: center;
+    text-align: center;
+  
+    background-color: #F4EDEA;
+    border: 12px solid #F4D1AE;
+    color: gray;
+  
+    width:70%;
+    height:60%;
+    margin: auto;
+    margin-top: 6%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 7%;
+    padding-right: 5%;
+  }
+  .quote-container h3{
+      font-size: 35px;
+    font-family: 'Crimson Text', serif;
+  }
+  .quote-container p{
+      font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+  }
+  .btn-container{
+    padding-top:2%;  
+      
+    text-align: center;
+
+  }
+  .btn{
+    color: gray;
+    border-radius: 9px;
+    border: 6px solid #fec89a;
+   
+    background-color: #F4EDEA;  
+    text-align: center;
+    font-size: 20px;
+    
+    padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+  }
+
+
+@media screen and (max-width:950px) {
+  .titl h2{
+      font-size: 60px;
+      text-align: center;  
+      color: #666666;
+      font-family: 'Dancing Script', cursive;
+    }  
+
+}
+  @media screen and (max-width:430px) {
+    .titl h2{
+        font-size: 50px;
+        text-align: center;  
+        color: #666666;
+        font-family: 'Dancing Script', cursive;
+      }  
+  
+  }
+  @media screen and (max-width:430px) {
+    .titl h2{
+        font-size: 50px;
+        text-align: center;  
+        color: #666666;
+        font-family: 'Dancing Script', cursive;
+      }  
+  
+  }
+  @media screen and (max-width:350px) {
+    .titl h2{
+        font-size: 40px;
+        text-align: center;  
+        color: #666666;
+        font-family: 'Dancing Script', cursive;
+      } 
+      .quote-container{ 
+        border: 9px solid #F4D1AE;  
+      }
+  }
+  @media screen and (max-width:290px) {
+    .titl h2{
+        font-size: 35px;
+        text-align: center;  
+        color: #666666;
+        font-family: 'Dancing Script', cursive;
+      }
+      .quote-container{ 
+        border: 7px solid #F4D1AE;  
+      }  
+  
+  }
+  
+  
